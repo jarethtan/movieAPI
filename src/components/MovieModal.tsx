@@ -10,7 +10,7 @@ function MovieDetails({ modalAction, movieList, index }: ModalProps) {
     setMovie(movieList[count]);
 
     return () => {};
-  }, [count]);
+  }, [count, movieList]);
 
   const decreaseMovie = () => {
     if (count > 0) setCount(count - 1);

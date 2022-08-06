@@ -33,7 +33,6 @@ function App(): ReactElement {
           if (search.length > 1) {
             // if search length is less than 2, it will not show error message as message will just be "too much results".
             setError(e.message);
-            console.log(e);
           }
         }
       }
