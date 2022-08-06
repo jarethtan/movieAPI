@@ -1,0 +1,7 @@
+.listGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}

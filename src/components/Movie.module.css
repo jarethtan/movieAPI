@@ -1,0 +1,47 @@
+.movieContainer {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 4px solid rgb(161, 0, 53);
+  padding: 0.7rem;
+  border-radius: 0.6rem;
+  background-color: rgb(161, 0, 53);
+}
+
+.image {
+  height: 25rem;
+  width: 16rem;
+}
+
+.title {
+  width: 16rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: rgb(254, 194, 96);
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.detailButton {
+  height: 2.4rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  background-color: rgb(254, 194, 96);
+  cursor: pointer;
+  border: 3px solid rgb(42, 9, 68);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #2a0944;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.detailButton:hover {
+  transform: scale(1.05);
+  border: 3px solid rgb(254, 194, 96);
+  background-color: rgb(42, 9, 68);
+  color: rgb(254, 194, 96);
+}

@@ -1,0 +1,26 @@
+.input {
+  width: 24rem;
+  height: 3rem;
+  background-color: rgb(255, 225, 154);
+  outline: none;
+  border: 3px solid rgb(42, 9, 68);
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  transition: all 0.2s ease-in-out;
+  margin: 1rem 0;
+  color: rgb(42, 9, 68);
+}
+
+input:hover {
+  background-color: whitesmoke;
+}
+
+@media (max-width: 600px) {
+  .input {
+    width: 16rem;
+    font-size: 1.6rem;
+  }
+}
